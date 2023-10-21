@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(211, 240, 223);
+    line-height: 2em;
+}
+
+header {
+    background-color: rgb(54, 223, 167);
+    margin: 0;
+    padding: 0.5em 0;
+    /* Add padding for spacing inside the header */
+    text-align: center;
+    /* Center-align the text */
+}
+
+header h1 {
+    color: white;
+    font-family: 'Rock Salt', cursive;
+}
+
+.first-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+input[type=text],
+input[type=email] {
+    width: 100%;
+    height: 2em;
+    outline: none;
+    border: none;
+    border-bottom: 0.2em solid rgb(62, 208, 161);
+    /* background-color: rgb(211, 240, 223); */
+    font-size: 1em;
+    padding: 1em;
+    color: rgb(19, 104, 77);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family:  'Open Sans', sans-serif;
+}
+
+input[type=radio] {
+    accent-color: green;
+}
+
+textarea {
+    width: 100%;
+    border: 0.1em solid rgb(54, 223, 167);
+    font-size: 1.3em;
+    font-family: 'Lobster', cursive;
+}
+
+textarea:focus {
+    color: rgb(19, 104, 77);
+    font-size: 1.3em;
+    outline: none;
+}
+
+
+div div div div div label,
+div div div div div p {
+    color: rgb(12, 71, 52);
+    font-size: 1.2em;
+    font-family: 'Lobster', cursive;
+}
+
+div div div {
+    background-color: white;
+}
+
+.second-div {
+    width: 60%;
+    /* display: flex; */
+
+}
+
+.third-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+    margin-bottom: 5em;
+}
+
+.for-margin-bottom {
+    margin-bottom: 7em;
+}
+
+div div div button {
+    border: none;
+    background-color: rgb(39, 133, 103);
+    padding: 1.3em;
+    border-radius: 1em;
+    margin-top: 1.7em;
+    margin-bottom: 2em;
+    transition: background-color 2s;
+}
+
+div div div button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    font-family: 'Lobster', cursive;
+}
+
+div div div button:hover {
+    background-color: rgb(54, 223, 167);
+}
+
+.submit-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-div div {
+    width: 45%;
+    background-color: white;margin-top: 6em;border-radius: 50%;
+}
+
+.submit-div div p {
+    color: rgb(39, 133, 103);
+    font-size: 2em;
+    text-align: center;margin: 5em;
+    font-family: 'Lobster', cursive;
+    
+}

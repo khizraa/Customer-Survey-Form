@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::selection {
+    background-color: rgb(20, 119, 87); /* Set your desired background color for selection */
+    color: #fff; /* Set the text color for the selected text */
+}
+
+body::-moz-selection {
+    background-color: rgb(20, 119, 87); /* For Firefox */
+    color: #fff;
+}
+
+
+.first-div {
+    background-color: rgb(211, 240, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-div-div {
+    width: 70em;
+    background-color: rgb(54, 223, 167);
+    border-radius: 3em;
+    margin: 8em;
+}
+
+.first-div-div div {
+    margin: 5em 2em;
+    text-align: center;
+}
+
+div div div h1 {
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+
+div div div p {
+    color: rgb(20, 119, 87);
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+
+div div div button {
+    border: none;
+    background-color: rgb(39, 133, 103);
+    padding: 1em;
+    border-radius: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    transition: background-color 1s;
+}
+
+div div div button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+div div div button:hover{background-color: rgb(36, 116, 92);}
+
+div div div hr {
+    border-color: white;
+    width: 55em;
+}
